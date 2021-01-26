@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1611650889852,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.27f46fe7f2a3989cbf17.js",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/styles.c87596e76c4f4e3da632.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/arome.svg",
+        "/assets/glycerine.svg",
+        "/assets/icons/icons-144x144.png",
+        "/assets/icons/icons-192x192.png",
+        "/assets/icons/icons-512x512.png",
+        "/assets/icons/icons-72x72.png",
+        "/assets/liquid.svg",
+        "/assets/nicotine.svg",
+        "/assets/pg.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/arome.svg": "bc890b65121d3ff03c9074bdda6634dd6df26a7c",
+    "/assets/glycerine.svg": "19c305caa6189027446bc0a0e46d2de091bf9d69",
+    "/assets/icons/icons-144x144.png": "ed0c85790b235a6980a7af413c037fd5c5c6813f",
+    "/assets/icons/icons-192x192.png": "544a7c48c2d3dc8c64bfe4570277029ddc1b02f9",
+    "/assets/icons/icons-512x512.png": "385e13a81bbe761c902902bb9d18114f016c4079",
+    "/assets/icons/icons-72x72.png": "4414eaee89cc699b91b82a72ab2ad974cf941137",
+    "/assets/liquid.svg": "57a3187eb9a01542a13c2d26764782c3a8db637d",
+    "/assets/nicotine.svg": "5ab9bf429049467c451a0ce4c9d9cbcda66bd82a",
+    "/assets/pg.svg": "33207aab971653d162f6f74db054182ebc6e9c29",
+    "/favicon.ico": "74447f66e61b109c0266e6e0053b95183aea6828",
+    "/index.html": "f29a95be956fd9abe7d7f6b4b76ce5a24108493e",
+    "/main.27f46fe7f2a3989cbf17.js": "d8460a9041e07c998f1218e35c9ad6fb5f0dd148",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.c87596e76c4f4e3da632.css": "6f4fd074f4fdd4502a21cba16b94e6406715c09b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
