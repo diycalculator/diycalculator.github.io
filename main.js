@@ -156,7 +156,7 @@ class AppComponent {
         this.aromeVG = 0.0;
         this.displayedColumns = ['ingredient', 'ml', 'gr'];
         this.dataSource = new Array();
-        iconRegistry.addSvgIcon('vg', sanitizer.bypassSecurityTrustResourceUrl('assets/vg.svg'));
+        iconRegistry.addSvgIcon('vg', sanitizer.bypassSecurityTrustResourceUrl('assets/glycerine.svg'));
         iconRegistry.addSvgIcon('pg', sanitizer.bypassSecurityTrustResourceUrl('assets/pg.svg'));
         iconRegistry.addSvgIcon('nicotine', sanitizer.bypassSecurityTrustResourceUrl('assets/nicotine.svg'));
         iconRegistry.addSvgIcon('arome', sanitizer.bypassSecurityTrustResourceUrl('assets/arome.svg'));
